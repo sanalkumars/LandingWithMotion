@@ -14,9 +14,9 @@ const Navbar = () => {
         event.preventDefault();
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
-            const offSetTop = targetElement.offSetTop-80;
+            const offsetTop = targetElement.offsetTop - 80;
             window.scrollTo({
-                top:offSetTop,
+                top:offsetTop,
                 behavior:"smooth"
             })
         }
@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className='hidden space-x-6 lg:flex'>
                 {
                     LINKS.map((link , index)=>(
-                        <a href={link.targetId} key={index} className={`text-sm ${index !== 0 ? "border-l-2 border-neutral-300/20 pl-2":""} hover:opacity-50 `}
+                        <a href={`#${link.targetId}`} key={index} className={`text-sm ${index !== 0 ? "border-l-2 border-neutral-300/20 pl-2":""} hover:opacity-50 `}
                         onClick={(e)=> handleScroll(e, link.targetId)}>
                             {link.text}
                         </a>
