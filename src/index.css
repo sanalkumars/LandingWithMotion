@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Ubuntu&family=Varela+Round&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: "Ubuntu", system-ui;
+  background-color: #000000;
+}
