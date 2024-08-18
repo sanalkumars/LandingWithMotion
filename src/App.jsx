@@ -2,6 +2,8 @@ import React from 'react'
 import HeroSection from './Componets/HeroSection'
 import Navbar from './Componets/Navbar'
 import Dishes from './Componets/Dishes'
+import About from './Componets/About'
+import Mission from './Componets/Mission'
 
 const App = () => {
   return (
@@ -9,6 +11,8 @@ const App = () => {
     <HeroSection />
     <Navbar />
     <Dishes />
+    <About />
+    <Mission />
     </main >
   )
 }
