@@ -6,6 +6,8 @@ import About from './Componets/About'
 import Mission from './Componets/Mission'
 import Expertise from './Componets/Expertise'
 import Review from './Componets/Review'
+import Contact from './Componets/Contact'
+import Footer from './Componets/Footer'
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
     <Mission />
     <Expertise />
     <Review />
+    <Contact />
+    <Footer />
     </main >
   )
 }
